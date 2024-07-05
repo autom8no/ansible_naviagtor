@@ -14,3 +14,6 @@ python3 -m pip install ansible-navigator --user
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.profile
 source ~/.profile
 ansible-navigator
+
+
+#
