@@ -16,7 +16,7 @@ ansible-navigator:
     workdir: /home/autom8/git_ansible_navigator/ansible_naviagtor
   ansible-runner:
     job-events: false
-  app: settings
+  app: welcome
   collection-doc-cache-path: /home/autom8/.cache/ansible-navigator/collection_doc_cache.db
   color:
     enable: true
@@ -42,14 +42,14 @@ ansible-navigator:
     append: true
     file: /home/autom8/git_ansible_navigator/ansible_naviagtor/ansible-navigator.log
     level: warning
-  mode: stdout
+  mode: interactive # stdout for å gå vekk fra TUI
   playbook-artifact:
-    enable: true
+    enable: false
     save-as: '{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json'
   settings:
-    effective: true
+    effective: true 
     sample: false
-    schema: json
+    schema: json 
     sources: false
   time-zone: UTC
 

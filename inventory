@@ -20,3 +20,15 @@ IOS_XE_switcher
 [rutere:children]
 IOS_rutere
 IOS_XE_rutere
+
+[switcher:vars]
+ansible_connection=ansible.netcommon.network_cli
+ansible_network_os=cisco.ios.ios
+ansible_user=autom8
+ansible_password=alt
+#ansible_ssh_user=autom8
+
+[rutere:vars]
+ansible_connection=ansible.netcommon.network_cli
+ansible_network_os=cisco.ios.ios
+ansible_username=autom8
